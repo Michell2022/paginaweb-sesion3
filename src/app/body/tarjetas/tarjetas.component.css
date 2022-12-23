@@ -1,0 +1,60 @@
+.container{
+    padding-top: 80px;
+}
+
+div.row{
+    display: flex;
+    justify-content: center;
+}
+
+h1, .subtitulo{
+    text-align: center;
+}
+
+h1{
+    font-size: 3.5em;
+    font-weight: lighter;
+}
+
+.subtitulo{
+    margin: 0px;
+}
+
+.card{
+    height: 100%;
+}
+
+.card-body{
+    text-align: center;
+    
+}
+
+.tarjetas{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h5.card-title{
+    font-size: 2em;
+}
+
+.card-body span{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8em;
+}
+
+span.title{
+    background: rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.botones{
+    width: 100%;
+    transition: all 300ms;
+}
+
+.botones:hover{
+    background: #fff;
+    color: #0b5ed7;
+}

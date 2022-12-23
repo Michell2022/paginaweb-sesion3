@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+button{
+    background: #fff;
+    border: 2px solid #6fb5ff;
+    border-radius: 5px;
+    color: #6fb5ff;
+    padding: 5px 15px;
+}
+
+header{
+    background: #fff;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0px;
+}
+
+header .logo{
+    font-size: 1.7em;
+    margin: 0px;
+    padding: 20px 30px;
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container nav{
+    padding: 20px;
+}
+
+.botoncito{
+    padding-left: 40px;
+}
+
+nav a{
+    color: #000;
+    padding: 5px 10px;
+}
+
+nav a:hover{
+    color: #ffc107;
+}
+
+@media(max-width:576px){
+    button{
+        display: none;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+        display: flex;
+        flex-direction: column;
+        color: #000;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .botoncito{
+        padding-left: 0px;
+    }
+
+    .container nav{
+        padding: 5px 5px 20px 5px;
+    }
+
+    header .logo{
+        font-size: 1.9em;
+        margin: 0px;
+        padding: 20px 30px 5px 30px;
+        
+    }
+
+}
+
+@media(min-width:576px){
+    button{
+        display: none;
+    }
+
+    .container nav{
+        padding: 5px;
+    }
+    
+    .botoncito{
+        padding-left: 0px;
+    }
+}
